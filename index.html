@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            border: 3px solid red;
+            border-radius: 14px;
+            padding: 34px;
+            margin: 29px;
+        }
+        .txt{
+            border: 3px solid rgb(0, 0, 0);
+            border-radius: 7px;
+            background-color: rgb(255, 0, 234);
+            padding: 34px;
+            margin: 29px;
+            font-size: 30px;
+        }
+        #but{
+            border: 3px solid rgb(48, 48, 48);
+            border-radius: 7px;
+            background-color: rgb(255, 255, 255);
+            padding: 24px;
+        }   
+        .bg-voilet{
+            background-color: blueviolet;
+        }
+        .bg-text{
+            color: white;
+            font-size: 3pc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my js tutorial</h1>
+    <div class = "first" id="container">
+        <button id = 'butt' class="but" onclick="clicked()">Click me</button>
+        <h1></h1>
+    </div>
+    <div id="para" class="txt">
+        <p id="text">this is a normal text paragraph</p>    
+    </div>
+
+    <script src = "index.js">
+        // 1. ----ways to print in console api-----
+        //-------------first at all document is ur html webpage , that  server to client-----
+        // console.log("hello world", 10-2, "this is another ");
+        // console.warn("this is fucking word")
+        // document.write("this is a document write")//devloper dont recommend this
+        // console.clear() // u can clear js console like as in cmd  
+        //----u can also change css , html using following method.------ 
+        // document.getElementById('text').innerHTML = '<p><b> this is a normal text paragraph , after using js method ---- You are bold now </b></p>'
+        // document.getElementsByTagName('h1')//if u want get element by tag then use that, but return all tag in one array
+        // document.getElementById('but').style.visibility = "one"
+
+        // 2. ---another stuff---
+        // alert("Hello Gamerz");
+        // prompt("are u vergin?");
+        // console.error("this is error")// u can implement error if u wnat
+
+    </script>
+</body>
+</html>
